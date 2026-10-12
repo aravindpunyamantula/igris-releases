@@ -1,11 +1,11 @@
 {
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRY0lVeG96K2Y0Y2J2RWJZeUNaVW5SUXovbHZOdnUwMUhqRlRtK0J1Ri9YRmI0TWQ3M0x1M1g4eS9EV05FSWVla28xaFhmbjcxcE8xelJqL2lYaldidmEzZm12ZXRmWWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjIzMzM3CWZpbGU6SWdyaXNfMi4xLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuMS4wCmVvbWNwc25RR1hkL1NKZ0hkalUxWDN2Wmo3Nnk4d2dOMW5uaXNENHRxV3BGNTF2R2J0RFBQaGx2c0F5ejJnNEVpakpTanAyL0RzMit0bHE1ZStic0JRPT0K",
-                                             "url":  "https://github.com/aravindpunyamantula/igris-releases/releases/download/v2.1.0/Igris_2.1.0_x64-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRY0lVeG96K2Y0Y1ZmQnpaLzMzUStEb1pZR3ZQTjJYNEhXMkE4eHJQUXkweDlzek5vWnBjcFBMdlpqbjFndkcxREVUalVjTllIcXBld1FINDRRbElmRkd4Sk1qeEtWV2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzc4NzM4CWZpbGU6SWdyaXNfMi4xLjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuMS4xClhqZ1p2T3Boem8xQm03bkxrMGZXN2RjdzhCTGRITGdQNGZXU1BlYkJaS1Y2SnE4Z3BoYW9lM1hxcVo1UHFLaU9nOUEvSGwwTG9ITmExT0VwZEFmdkJRPT0K",
+                                             "url":  "https://github.com/aravindpunyamantula/igris-releases/releases/download/v2.1.1/Igris_2.1.1_x64-setup.exe"
                                          }
                   },
-    "pub_date":  "2026-10-10T09:10:43Z",
-    "version":  "2.1.0",
-    "notes":  "# Igris 2.1.0\r\n\r\n- Improved intent routing for tasks, reminders, projects, notes, memory, Wellvell, coding, search, screenshots and chat summaries.\r\n- Task dictation and labelled details preserve pending context. Projects ask for a name first and draft an omitted description from supplied facts before collecting monitoring URLs.\r\n- Long conversations carry compact working notes and important source facts alongside recent turns. The visible transcript remains available within existing storage limits; provider failures use extractive notes.\r\n- Responsive chat tables scroll horizontally without squeezing columns. Follow-up replies offer selectable, reorderable choices and editable description prompts in both apps.\r\n\r\nProduction Android signing is deferred until after V2.3. The Android Debug APK preserves the existing debug signing identity; phone installation requires the connected device. Final verification evidence is in V2_QA_REPORT.md.\r\n"
+    "pub_date":  "2026-10-12T04:22:07Z",
+    "version":  "2.1.1",
+    "notes":  "# Igris 2.1.1 - Windows screenshot hotfix\r\n\r\n- Screenshot/image coding questions no longer attach automatic MCP tools. Vision models can answer directly without requiring tool calling or MCP support.\r\n- Stale music-model profiles are skipped, and duplicate resolved vision routes are tried once per provider/model/region.\r\n- Explicit browsing retains its existing consent and capability gates; ordinary text MCP requests are preserved.\r\n\r\nVerified with overlay regression tests, native tests and live Groq analysis of a synthetic screen with background MCP configured. This is a Windows hotfix; Android remains 2.1.0 and production signing stays deferred until after V2.3.\r\n"
 }
